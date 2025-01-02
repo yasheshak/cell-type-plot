@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('-p', '--position', default='BME163_Input_Data_Week3.position.tsv', type=str, action='store', help='input position tsv file')
 parser.add_argument('-c', '--celltype', default='BME163_Input_Data_Week3.celltype.tsv', type=str, action='store', help='input celltype tsv file')
-parser.add_argument('-o', '--output', default='Kothari_Yashesha_BME163_Assignment_Week3.png', type=str, action='store', help='output png file')
+parser.add_argument('-o', '--output', default='tSNE_plot.png', type=str, action='store', help='output png file')
 
 args = parser.parse_args()
 
